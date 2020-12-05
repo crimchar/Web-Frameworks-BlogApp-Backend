@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Help Page</title>
+    <link rel='stylesheet' type='text/css' href="/css/main.css" >
+</head>
+<body>
+    <main>
+        <table>
+            <th>Routes</th>
+            <tr>
+                <td>GET '/'</td>
+                <td>Displays this help page with all of the different routes</td>
+            </tr>
+            <tr>
+                <td>GET '/Users'</td>
+                <td>Displays a list of all of the users</td>
+            </tr>
+            <tr>
+                <td>POST '/User'</td>
+                <td>Creates a new user with the following properties: UserID, First Name, Last Name, Email Address, and Password, all fields are required</td>
+            </tr>
+            <tr>
+                <td>GET '/User/{ID}'</td>
+                <td>Returns the user with the specified ID</td>
+            </tr>
+            <tr>
+                <td>PATCH '/User/{ID}'</td>
+                <td>Updates the user with the specified ID</td>
+            </tr>
+            <tr>
+                <td>DELETE '/User/{ID}'</td>
+                <td>Deletes the user with the specified ID</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
